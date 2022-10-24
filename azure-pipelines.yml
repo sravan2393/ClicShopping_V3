@@ -20,9 +20,9 @@ steps:
 
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
-  - task: VSTest@2
+  task: VSTest@2
     inputs:
-      testSelector: 'testAssemblies'
+    testSelector: 'testAssemblies'
       testAssemblyVer2: |
         **\*test*.dll
         !**\*TestAdapter.dll
