@@ -10,7 +10,7 @@
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
   inputs:
-    command: 'build'
+
 trigger:
 - master
 
